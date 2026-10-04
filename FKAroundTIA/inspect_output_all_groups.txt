@@ -1,0 +1,26 @@
+=== Siemens Openness Screen Group Search (Public and Non-Public) ===
+Name: Siemens.Engineering.HmiUnified.UI.Widgets.HmiCheckBoxGroupFactoryFacade, IsPublic: False, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.UI.Widgets.HmiCheckBoxGroup, IsPublic: True, BaseType: Siemens.Engineering.HmiUnified.UI.Widgets.HmiSelectionGroupBase
+Name: Siemens.Engineering.HmiUnified.UI.Widgets.HmiRadioButtonGroupFactoryFacade, IsPublic: False, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.UI.Widgets.HmiRadioButtonGroup, IsPublic: True, BaseType: Siemens.Engineering.HmiUnified.UI.Widgets.HmiSelectionGroupBase
+Name: Siemens.Engineering.HmiUnified.UI.Widgets.HmiSelectionGroupBaseFactoryFacade, IsPublic: False, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.UI.Widgets.HmiSelectionGroupBase, IsPublic: True, BaseType: Siemens.Engineering.HmiUnified.UI.Widgets.HmiWidgetBase
+Name: Siemens.Engineering.HmiUnified.UI.ScreenGroup.HmiScreenGroupFactoryFacade, IsPublic: False, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.UI.ScreenGroup.HmiScreenGroup, IsPublic: True, BaseType: Siemens.Engineering.HmiUnified.Common.HmiGroupBase
+Name: Siemens.Engineering.HmiUnified.UI.ScreenGroup.HmiScreenGroupCompositionFactoryFacade, IsPublic: False, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.UI.ScreenGroup.HmiScreenGroupComposition, IsPublic: True, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.UI.Events.HmiCheckBoxGroupEventHandlerFactoryFacade, IsPublic: False, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.UI.Events.HmiCheckBoxGroupEventHandler, IsPublic: True, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.UI.Events.HmiCheckBoxGroupEventHandlerCompositionFactoryFacade, IsPublic: False, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.UI.Events.HmiCheckBoxGroupEventHandlerComposition, IsPublic: True, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.UI.Events.HmiRadioButtonGroupEventHandlerFactoryFacade, IsPublic: False, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.UI.Events.HmiRadioButtonGroupEventHandler, IsPublic: True, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.UI.Events.HmiRadioButtonGroupEventHandlerCompositionFactoryFacade, IsPublic: False, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.UI.Events.HmiRadioButtonGroupEventHandlerComposition, IsPublic: True, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.UI.Enum.HmiCheckBoxGroupEventType, IsPublic: True, BaseType: System.Enum
+Name: Siemens.Engineering.HmiUnified.UI.Enum.HmiRadioButtonGroupEventType, IsPublic: True, BaseType: System.Enum
+Name: Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableGroupFactoryFacade, IsPublic: False, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableGroup, IsPublic: True, BaseType: Siemens.Engineering.HmiUnified.Common.HmiGroupBase
+Name: Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableGroupCompositionFactoryFacade, IsPublic: False, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableGroupComposition, IsPublic: True, BaseType: System.Object
+Name: Siemens.Engineering.HmiUnified.Common.HmiGroupBase, IsPublic: True, BaseType: System.Object

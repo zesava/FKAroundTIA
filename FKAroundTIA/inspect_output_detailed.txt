@@ -1,0 +1,1644 @@
+=== Siemens Openness HmiUnified Detailed Type Inspection ===
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Widgets.HmiCheckBoxGroup (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiSelectionGroupBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiCheckBoxGroupEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiSelectionItemPartComposition SelectionItems
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiContentPart Content
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    System.Drawing.Color ForeColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiPaddingPart Padding
+    System.String ProcessValue
+    System.UInt16 SelectionItemHeight
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiHorizontalAlignment SelectorPosition
+    System.Drawing.Color AlternateBackColor
+    System.Drawing.Color AlternateBorderColor
+    System.Drawing.Color BackColor
+    System.Drawing.Color BorderColor
+    System.Byte BorderWidth
+    System.UInt32 Height
+    System.Int32 Left
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiLinearMovementPart LinearMovement
+    System.Int16 RotationAngle
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiRotationCenterPlacement RotationCenterPlacement
+    System.Single RotationCenterX
+    System.Single RotationCenterY
+    System.Int32 Top
+    System.Boolean VisualizeQuality
+    System.UInt32 Width
+    System.String Authorization
+    System.Single Opacity
+    System.Boolean RequireExplicitUnlock
+    Siemens.Engineering.MultilingualText ToolTipText
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Widgets.HmiRadioButtonGroup (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiSelectionGroupBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiRadioButtonGroupEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiSelectionItemPartComposition SelectionItems
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiContentPart Content
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    System.Drawing.Color ForeColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiPaddingPart Padding
+    System.String ProcessValue
+    System.UInt16 SelectionItemHeight
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiHorizontalAlignment SelectorPosition
+    System.Drawing.Color AlternateBackColor
+    System.Drawing.Color AlternateBorderColor
+    System.Drawing.Color BackColor
+    System.Drawing.Color BorderColor
+    System.Byte BorderWidth
+    System.UInt32 Height
+    System.Int32 Left
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiLinearMovementPart LinearMovement
+    System.Int16 RotationAngle
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiRotationCenterPlacement RotationCenterPlacement
+    System.Single RotationCenterX
+    System.Single RotationCenterY
+    System.Int32 Top
+    System.Boolean VisualizeQuality
+    System.UInt32 Width
+    System.String Authorization
+    System.Single Opacity
+    System.Boolean RequireExplicitUnlock
+    Siemens.Engineering.MultilingualText ToolTipText
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Widgets.HmiSelectionGroupBase (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiWidgetBase)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiSelectionItemPartComposition SelectionItems
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiContentPart Content
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    System.Drawing.Color ForeColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiPaddingPart Padding
+    System.String ProcessValue
+    System.UInt16 SelectionItemHeight
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiHorizontalAlignment SelectorPosition
+    System.Drawing.Color AlternateBackColor
+    System.Drawing.Color AlternateBorderColor
+    System.Drawing.Color BackColor
+    System.Drawing.Color BorderColor
+    System.Byte BorderWidth
+    System.UInt32 Height
+    System.Int32 Left
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiLinearMovementPart LinearMovement
+    System.Int16 RotationAngle
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiRotationCenterPlacement RotationCenterPlacement
+    System.Single RotationCenterX
+    System.Single RotationCenterY
+    System.Int32 Top
+    System.Boolean VisualizeQuality
+    System.UInt32 Width
+    System.String Authorization
+    System.Single Opacity
+    System.Boolean RequireExplicitUnlock
+    Siemens.Engineering.MultilingualText ToolTipText
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.ScreenGroup.HmiScreenGroup (Base: Siemens.Engineering.HmiUnified.Common.HmiGroupBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.ScreenGroup.HmiScreenGroupComposition Groups
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Screens.HmiScreenComposition Screens
+    System.String Name
+  Methods:
+    System.Void Delete()
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.ScreenGroup.HmiScreenGroupComposition (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Int32 Count
+    System.Boolean IsReadOnly
+    Siemens.Engineering.HmiUnified.UI.ScreenGroup.HmiScreenGroup Item
+  Methods:
+    System.Collections.Generic.IEnumerator`1[[Siemens.Engineering.HmiUnified.UI.ScreenGroup.HmiScreenGroup, Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetEnumerator()
+    System.Boolean Any()
+    System.Boolean Contains(Siemens.Engineering.HmiUnified.UI.ScreenGroup.HmiScreenGroup item)
+    System.Int32 IndexOf(Siemens.Engineering.HmiUnified.UI.ScreenGroup.HmiScreenGroup item)
+    Siemens.Engineering.HmiUnified.UI.ScreenGroup.HmiScreenGroup Create(System.String name)
+    Siemens.Engineering.HmiUnified.UI.ScreenGroup.HmiScreenGroup Find(System.String name)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridColumnHeaderPart (Base: Siemens.Engineering.HmiUnified.UI.Parts.HmiScreenPartBase)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiContentPart Content
+    System.String Graphic
+    Siemens.Engineering.MultilingualText Text
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridColumnPart (Base: Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridColumnPartBase)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.String Key
+    System.Boolean AllowSort
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiContentPart Content
+    System.Boolean Enabled
+    System.Drawing.Color ForeColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridColumnHeaderPart Header
+    System.UInt32 MaximumWidth
+    System.UInt32 MinimumWidth
+    System.String Name
+    System.String OutputFormat
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiSortDirection SortDirection
+    System.UInt16 SortOrder
+    System.Boolean Visible
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridColumnPartBase (Base: Siemens.Engineering.HmiUnified.UI.Parts.HmiScreenPartBase)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Boolean AllowSort
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiContentPart Content
+    System.Boolean Enabled
+    System.Drawing.Color ForeColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridColumnHeaderPart Header
+    System.UInt32 MaximumWidth
+    System.UInt32 MinimumWidth
+    System.String Name
+    System.String OutputFormat
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiSortDirection SortDirection
+    System.UInt16 SortOrder
+    System.Boolean Visible
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Void Delete()
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridColumnPartBaseComposition (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Int32 Count
+    System.Boolean IsReadOnly
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridColumnPartBase Item
+  Methods:
+    System.Collections.Generic.IEnumerator`1[[Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridColumnPartBase, Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetEnumerator()
+    System.Boolean Any()
+    System.Boolean Contains(Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridColumnPartBase item)
+    System.Int32 IndexOf(Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridColumnPartBase item)
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridColumnPartBase Find(System.String name)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridHeaderSettingsPart (Base: Siemens.Engineering.HmiUnified.UI.Parts.HmiScreenPartBase)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Boolean AllowColumnReorder
+    System.Boolean AllowColumnResize
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiDataGridHeaderType ColumnHeaderType
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    System.Drawing.Color HeaderBackColor
+    System.Drawing.Color HeaderForeColor
+    System.Drawing.Color HeaderGridLineColor
+    System.Drawing.Color HeaderSelectionBackColor
+    System.Drawing.Color HeaderSelectionForeColor
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiDataGridHeaderType RowHeaderType
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart (Base: Siemens.Engineering.HmiUnified.UI.Parts.HmiScreenPartBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridColumnPartBaseComposition Columns
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Boolean AllowFilter
+    System.Boolean AllowSort
+    System.Drawing.Color AlternateBackColor
+    System.Drawing.Color AlternateForeColor
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiPaddingPart CellPadding
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiGridColoringMode ColoringMode
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    System.Drawing.Color ForeColor
+    System.Drawing.Color GridLineColor
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiSimpleGridLine GridLineVisibility
+    System.Byte GridLineWidth
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiGridSelectionMode GridSelectionMode
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridHeaderSettingsPart HeaderSettings
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiScrollBarVisibility HorizontalScrollBarVisibility
+    System.Byte RowHeight
+    System.Boolean SelectFullRow
+    System.Drawing.Color SelectionBackColor
+    System.Drawing.Color SelectionBorderColor
+    System.Byte SelectionBorderWidth
+    System.Drawing.Color SelectionForeColor
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiScrollBarVisibility VerticalScrollBarVisibility
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Parts.HmiPressedStateTagPart (Base: Siemens.Engineering.HmiUnified.UI.Parts.HmiScreenPartBase)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Byte BitNumber
+    System.String Tag
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Void Delete()
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Parts.HmiPressedStateTagPartComposition (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Int32 Count
+    System.Boolean IsReadOnly
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiPressedStateTagPart Item
+  Methods:
+    System.Collections.Generic.IEnumerator`1[[Siemens.Engineering.HmiUnified.UI.Parts.HmiPressedStateTagPart, Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetEnumerator()
+    System.Boolean Any()
+    System.Boolean Contains(Siemens.Engineering.HmiUnified.UI.Parts.HmiPressedStateTagPart item)
+    System.Int32 IndexOf(Siemens.Engineering.HmiUnified.UI.Parts.HmiPressedStateTagPart item)
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiPressedStateTagPart Create()
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Events.HmiCheckBoxGroupEventHandler (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiCheckBoxGroupEventType EventType
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Script.IHmiScript Script
+  Methods:
+    System.Object GetAttribute(System.String name)
+    System.Collections.Generic.IList`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] names)
+    System.Collections.Generic.IReadOnlyList`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(Siemens.Engineering.AttributeAccessOptions attributeAccessOptions)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.EngineeringAttributeInfo, Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetAttributeInfos()
+    System.Void SetAttribute(System.String name, System.Object value)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes, Siemens.Engineering.AttributeDelegate errorHandler)
+    System.Void Delete()
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Events.HmiCheckBoxGroupEventHandlerComposition (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Int32 Count
+    System.Boolean IsReadOnly
+    Siemens.Engineering.HmiUnified.UI.Events.HmiCheckBoxGroupEventHandler Item
+  Methods:
+    System.Collections.Generic.IEnumerator`1[[Siemens.Engineering.HmiUnified.UI.Events.HmiCheckBoxGroupEventHandler, Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetEnumerator()
+    System.Boolean Any()
+    System.Boolean Contains(Siemens.Engineering.HmiUnified.UI.Events.HmiCheckBoxGroupEventHandler item)
+    System.Int32 IndexOf(Siemens.Engineering.HmiUnified.UI.Events.HmiCheckBoxGroupEventHandler item)
+    Siemens.Engineering.HmiUnified.UI.Events.HmiCheckBoxGroupEventHandler Create(Siemens.Engineering.HmiUnified.UI.Enum.HmiCheckBoxGroupEventType eventType)
+    Siemens.Engineering.HmiUnified.UI.Events.HmiCheckBoxGroupEventHandler Find(Siemens.Engineering.HmiUnified.UI.Enum.HmiCheckBoxGroupEventType eventType)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Events.HmiRadioButtonGroupEventHandler (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiRadioButtonGroupEventType EventType
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Script.IHmiScript Script
+  Methods:
+    System.Object GetAttribute(System.String name)
+    System.Collections.Generic.IList`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] names)
+    System.Collections.Generic.IReadOnlyList`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(Siemens.Engineering.AttributeAccessOptions attributeAccessOptions)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.EngineeringAttributeInfo, Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetAttributeInfos()
+    System.Void SetAttribute(System.String name, System.Object value)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes, Siemens.Engineering.AttributeDelegate errorHandler)
+    System.Void Delete()
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Events.HmiRadioButtonGroupEventHandlerComposition (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Int32 Count
+    System.Boolean IsReadOnly
+    Siemens.Engineering.HmiUnified.UI.Events.HmiRadioButtonGroupEventHandler Item
+  Methods:
+    System.Collections.Generic.IEnumerator`1[[Siemens.Engineering.HmiUnified.UI.Events.HmiRadioButtonGroupEventHandler, Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetEnumerator()
+    System.Boolean Any()
+    System.Boolean Contains(Siemens.Engineering.HmiUnified.UI.Events.HmiRadioButtonGroupEventHandler item)
+    System.Int32 IndexOf(Siemens.Engineering.HmiUnified.UI.Events.HmiRadioButtonGroupEventHandler item)
+    Siemens.Engineering.HmiUnified.UI.Events.HmiRadioButtonGroupEventHandler Create(Siemens.Engineering.HmiUnified.UI.Enum.HmiRadioButtonGroupEventType eventType)
+    Siemens.Engineering.HmiUnified.UI.Events.HmiRadioButtonGroupEventHandler Find(Siemens.Engineering.HmiUnified.UI.Enum.HmiRadioButtonGroupEventType eventType)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Enum.HmiCheckBoxGroupEventType (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Enum.HmiDataGridHeaderType (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Enum.HmiRadioButtonGroupEventType (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBase (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationType DynamizationType
+    System.String PropertyName
+  Methods:
+    System.Object GetAttribute(System.String name)
+    System.Collections.Generic.IList`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] names)
+    System.Collections.Generic.IReadOnlyList`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(Siemens.Engineering.AttributeAccessOptions attributeAccessOptions)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.EngineeringAttributeInfo, Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetAttributeInfos()
+    System.Void SetAttribute(System.String name, System.Object value)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes, Siemens.Engineering.AttributeDelegate errorHandler)
+    System.Void Delete()
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Int32 Count
+    System.Boolean IsReadOnly
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBase Item
+  Methods:
+    System.Collections.Generic.IEnumerator`1[[Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBase, Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetEnumerator()
+    System.Boolean Any()
+    System.Boolean Contains(Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBase item)
+    System.Int32 IndexOf(Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBase item)
+     Create(System.String propertyName)
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBase Find(System.String propertyName)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationType (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.ExpressionDynamization (Base: Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBase)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.ValueConverter ValueConverter
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationType DynamizationType
+    System.String PropertyName
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.ResourceListDynamization (Base: Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBase)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.String ResourceList
+    System.String Tag
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationType DynamizationType
+    System.String PropertyName
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.TagDynamization (Base: Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBase)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.String Address
+    System.String DataType
+    System.String PlcTag
+    System.Boolean ReadOnly
+    System.String Tag
+    System.Boolean UseIndirectAddressing
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.ValueConverter ValueConverter
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationType DynamizationType
+    System.String PropertyName
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.TagParameterDynamization (Base: Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBase)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.String DynamicTagName
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationType DynamizationType
+    System.String PropertyName
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.BitDynamizationType (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.ConditionType (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.MappingTable (Base: System.Object)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.MappingTableEntryBaseComposition Entries
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.ConditionType ConditionType
+  Methods:
+    System.Object GetAttribute(System.String name)
+    System.Collections.Generic.IList`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] names)
+    System.Collections.Generic.IReadOnlyList`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(Siemens.Engineering.AttributeAccessOptions attributeAccessOptions)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.EngineeringAttributeInfo, Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetAttributeInfos()
+    System.Void SetAttribute(System.String name, System.Object value)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes, Siemens.Engineering.AttributeDelegate errorHandler)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.MappingTableEntryBase (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Object AlternateValue
+    System.Boolean Flashing
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Flashing.FlashingRate FlashingRate
+    System.Object Value
+  Methods:
+    System.Object GetAttribute(System.String name)
+    System.Collections.Generic.IList`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] names)
+    System.Collections.Generic.IReadOnlyList`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(Siemens.Engineering.AttributeAccessOptions attributeAccessOptions)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.EngineeringAttributeInfo, Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetAttributeInfos()
+    System.Void SetAttribute(System.String name, System.Object value)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes, Siemens.Engineering.AttributeDelegate errorHandler)
+    System.Void Delete()
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.MappingTableEntryBaseComposition (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Int32 Count
+    System.Boolean IsReadOnly
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.MappingTableEntryBase Item
+  Methods:
+    System.Collections.Generic.IEnumerator`1[[Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.MappingTableEntryBase, Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetEnumerator()
+    System.Boolean Any()
+    System.Boolean Contains(Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.MappingTableEntryBase item)
+    System.Int32 IndexOf(Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.MappingTableEntryBase item)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.MappingTableEntryBitmask, Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] Create(Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.BitDynamizationType bitDynamizationType)
+     Create()
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.MappingTableEntryBitmask (Base: Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.MappingTableEntryBase)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.BitDynamizationType BitDynamizationType
+    System.UInt64 Condition
+    System.UInt64 Relevant
+    System.Object AlternateValue
+    System.Boolean Flashing
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Flashing.FlashingRate FlashingRate
+    System.Object Value
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.MappingTableEntryRange (Base: Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.MappingTableEntryBase)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Object From
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.RangeType RangeType
+    System.Object To
+    System.Object AlternateValue
+    System.Boolean Flashing
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Flashing.FlashingRate FlashingRate
+    System.Object Value
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.MappingTableEntrySimple (Base: Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.MappingTableEntryBase)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.String Condition
+    System.Object AlternateValue
+    System.Boolean Flashing
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Flashing.FlashingRate FlashingRate
+    System.Object Value
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.RangeType (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.ValueConverter (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.String Formula
+    System.Boolean IsFormulaSelected
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Tag.MappingTable MappingTable
+  Methods:
+    System.Object GetAttribute(System.String name)
+    System.Collections.Generic.IList`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] names)
+    System.Collections.Generic.IReadOnlyList`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(Siemens.Engineering.AttributeAccessOptions attributeAccessOptions)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.EngineeringAttributeInfo, Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetAttributeInfos()
+    System.Void SetAttribute(System.String name, System.Object value)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes, Siemens.Engineering.AttributeDelegate errorHandler)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Script.IHmiScript (Base: )
+  Properties:
+    System.Boolean Async
+    System.String GlobalDefinitionAreaScriptCode
+    System.String ScriptCode
+  Methods:
+    Siemens.Engineering.HmiUnified.Common.HmiValidationResult SyntaxCheck()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Script.ScriptDynamization (Base: Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBase)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Boolean Async
+    System.String GlobalDefinitionAreaScriptCode
+    System.String ScriptCode
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Script.Trigger Trigger
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationType DynamizationType
+    System.String PropertyName
+  Methods:
+    Siemens.Engineering.HmiUnified.Common.HmiValidationResult SyntaxCheck()
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Script.Trigger (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.String CustomDuration
+    System.Object Tags
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Script.TriggerType Type
+  Methods:
+    System.Object GetAttribute(System.String name)
+    System.Collections.Generic.IList`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] names)
+    System.Collections.Generic.IReadOnlyList`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(Siemens.Engineering.AttributeAccessOptions attributeAccessOptions)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.EngineeringAttributeInfo, Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetAttributeInfos()
+    System.Void SetAttribute(System.String name, System.Object value)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes, Siemens.Engineering.AttributeDelegate errorHandler)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Script.TriggerType (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Flashing.FlashingCondition (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Flashing.FlashingDynamization (Base: Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBase)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Drawing.Color AlternateColor
+    System.Drawing.Color Color
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Flashing.FlashingCondition FlashingCondition
+    Siemens.Engineering.HmiUnified.UI.Dynamization.Flashing.FlashingRate FlashingRate
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationType DynamizationType
+    System.String PropertyName
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Dynamization.Flashing.FlashingRate (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Controls.HmiAlarmControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiAlarmControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFlashingRate AcknowledgmentFlashingRate
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiVisibleAlarms ActiveAlarmsViewSetup
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiVisibleAlarms AlarmDefinitionViewSetup
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiAlarmSourceType AlarmSourceType
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart AlarmStatisticsView
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart AlarmView
+    System.Boolean AlwaysShowRecent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiSortDirection DefaultSortDirection
+    System.String Filter
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFlashingRate ResetFlashingRate
+    System.Boolean SuppressFlashing
+    System.Int32 TimeZone
+    System.Boolean UseAlarmColors
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiStatusBarPart StatusBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiToolBarPart ToolBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Caption
+    System.Drawing.Color CaptionColor
+    System.UInt32 Height
+    System.String Icon
+    System.Int32 Left
+    System.Int32 Top
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiWindowFlag WindowFlags
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Controls.HmiAlarmLineControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiSimpleScreenItemBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiAlarmLineControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFlashingRate AcknowledgmentFlashingRate
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiVisibleAlarms ActiveAlarmsViewSetup
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiAlarmLineViewPart AlarmLineView
+    System.Drawing.Color AlternateBackColor
+    System.Drawing.Color AlternateBorderColor
+    System.Drawing.Color BackColor
+    System.Drawing.Color BorderColor
+    System.Byte BorderWidth
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiSortDirection DefaultSortDirection
+    System.String Filter
+    System.UInt32 Height
+    System.Int32 Left
+    System.Byte NumberOfRows
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFlashingRate ResetFlashingRate
+    System.Boolean SuppressFlashing
+    System.Int32 TimeZone
+    System.Int32 Top
+    System.Boolean UseAlarmColors
+    System.Boolean VisualizeQuality
+    System.UInt32 Width
+    System.String Authorization
+    System.Single Opacity
+    System.Boolean RequireExplicitUnlock
+    Siemens.Engineering.MultilingualText ToolTipText
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Controls.HmiDetailedParameterControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiDetailedParameterControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiEditMode EditMode
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    System.Drawing.Color ForeColor
+    System.Boolean HideDetails
+    System.String ParameterSetTypeFixed
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart ParameterView
+    System.Drawing.Color SelectionBackColor
+    System.Drawing.Color SelectionForeColor
+    System.Int32 TimeZone
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiStatusBarPart StatusBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiToolBarPart ToolBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Caption
+    System.Drawing.Color CaptionColor
+    System.UInt32 Height
+    System.String Icon
+    System.Int32 Left
+    System.Int32 Top
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiWindowFlag WindowFlags
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Controls.HmiFaceplateContainer (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiContainerBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiFaceplateContainerEventHandlerComposition EventHandlers
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFaceplateInterfaceComposition Interface
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiScreenWindowAdaption Adaption
+    System.Boolean InteractivePanning
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiLinearMovementPart LinearMovement
+    System.Int16 RotationAngle
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiRotationCenterPlacement RotationCenterPlacement
+    System.Single RotationCenterX
+    System.Single RotationCenterY
+    System.String ContainedType
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Caption
+    System.Drawing.Color CaptionColor
+    System.UInt32 Height
+    System.String Icon
+    System.Int32 Left
+    System.Int32 Top
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiWindowFlag WindowFlags
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Controls.HmiFunctionTrendControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiTrendControlBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiFunctionTrendControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFunctionTrendAreaPartComposition FunctionTrendAreas
+    Siemens.Engineering.IEngineeringObject Parent
+    System.UInt16 AreaSpacing
+    System.Boolean ExtendRulerToAxis
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiLegendPart Legend
+    System.Boolean Online
+    System.Boolean ShiftAxes
+    System.Boolean ShowRuler
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiStatusBarPart StatusBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiToolBarPart ToolBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Caption
+    System.Drawing.Color CaptionColor
+    System.UInt32 Height
+    System.String Icon
+    System.Int32 Left
+    System.Int32 Top
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiWindowFlag WindowFlags
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Controls.HmiMediaControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiMediaControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Boolean AutoPlay
+    System.String Url
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiVideoOutput VideoOutput
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiStatusBarPart StatusBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiToolBarPart ToolBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Caption
+    System.Drawing.Color CaptionColor
+    System.UInt32 Height
+    System.String Icon
+    System.Int32 Left
+    System.Int32 Top
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiWindowFlag WindowFlags
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Controls.HmiProcessControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiProcessControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiEditMode EditMode
+    System.Boolean Online
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart ProcessView
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiTimeRangeBase TimeStepSmoothingBase
+    System.Int32 TimeStepSmoothingFactor
+    System.Int32 TimeZone
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiStatusBarPart StatusBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiToolBarPart ToolBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Caption
+    System.Drawing.Color CaptionColor
+    System.UInt32 Height
+    System.String Icon
+    System.Int32 Left
+    System.Int32 Top
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiWindowFlag WindowFlags
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Controls.HmiProcessDiagnosisCriteriaAnalysisControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiCompanionBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiProDiagCriteriaAnalysisControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart CriteriaAnalysisView
+    System.Drawing.Color ForeColor
+    System.String SourceControl
+    System.Boolean SnapToSourceControl
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiStatusBarPart StatusBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiToolBarPart ToolBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Caption
+    System.Drawing.Color CaptionColor
+    System.UInt32 Height
+    System.String Icon
+    System.Int32 Left
+    System.Int32 Top
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiWindowFlag WindowFlags
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Controls.HmiProcessDiagnosisGraphOverviewControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiProcessDiagnosisGraphOverviewControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    System.Drawing.Color ForeColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart GraphOverview
+    System.Drawing.Color GridLineColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiProcessDiagnosisOperationModePart OperationMode
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiPlcDataSourcePart PlcSource
+    System.Boolean ShowOperationMode
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiStatusBarPart StatusBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiToolBarPart ToolBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Caption
+    System.Drawing.Color CaptionColor
+    System.UInt32 Height
+    System.String Icon
+    System.Int32 Left
+    System.Int32 Top
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiWindowFlag WindowFlags
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Controls.HmiProcessDiagnosisOverviewControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiProcessDiagnosisOverviewControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    System.Drawing.Color ForeColor
+    System.Drawing.Color LineColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiProcessDiagnosisOverviewPart PDiagCategories
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiProcessDiagnosisOverviewPart PDiagSupervisionTypes
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiPlcDataSourcePart PlcSource
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiStatusBarPart StatusBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiToolBarPart ToolBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Caption
+    System.Drawing.Color CaptionColor
+    System.UInt32 Height
+    System.String Icon
+    System.Int32 Left
+    System.Int32 Top
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiWindowFlag WindowFlags
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Controls.HmiProcessDiagnosisPlcCodeViewerControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiProcessDiagnosisPlcCodeViewerControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Double CurrentZoomFactor
+    System.Single OverviewDetailRatio
+    System.Boolean ShowSymbolLine
+    System.Drawing.Color SymbolLineBackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart SymbolLineFont
+    System.Drawing.Color SymbolLineForeColor
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiStatusBarPart StatusBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiToolBarPart ToolBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Caption
+    System.Drawing.Color CaptionColor
+    System.UInt32 Height
+    System.String Icon
+    System.Int32 Left
+    System.Int32 Top
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiWindowFlag WindowFlags
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Controls.HmiSystemDiagnosisControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiSystemDiagnosisControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.MultilingualText DiagnosisBufferPathText
+    Siemens.Engineering.MultilingualText DiagnosisOverviewPathText
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiMatrixViewPart MatrixView
+    Siemens.Engineering.MultilingualText ScriptDiagnosisOverviewText
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart ScriptDiagnosisView
+    System.Boolean ShowStatusPath
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart SystemDiagnosisView
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiSystemDiagnosisViewType SystemDiagnosisViewType
+    System.Int32 TimeZone
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiStatusBarPart StatusBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiToolBarPart ToolBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Caption
+    System.Drawing.Color CaptionColor
+    System.UInt32 Height
+    System.String Icon
+    System.Int32 Left
+    System.Int32 Top
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiWindowFlag WindowFlags
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Controls.HmiTrendCompanion (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiCompanionBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiTrendCompanionEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Boolean ShowAlways
+    System.String SourceTrendControl
+    System.Int32 TimeZone
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiTrendCompanionMode TrendCompanionMode
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart TrendRulerView
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart TrendStatisticAreaView
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart TrendStatisticResultView
+    System.Boolean UseSourceControlBackColor
+    System.Boolean UseSourceControlTrendColors
+    System.Boolean SnapToSourceControl
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiStatusBarPart StatusBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiToolBarPart ToolBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Caption
+    System.Drawing.Color CaptionColor
+    System.UInt32 Height
+    System.String Icon
+    System.Int32 Left
+    System.Int32 Top
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiWindowFlag WindowFlags
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Controls.HmiTrendControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiTrendControlBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiTrendControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTrendAreaPartComposition TrendAreas
+    System.Boolean ShowStatisticRulers
+    System.Int32 TimeZone
+    System.UInt16 AreaSpacing
+    System.Boolean ExtendRulerToAxis
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiLegendPart Legend
+    System.Boolean Online
+    System.Boolean ShiftAxes
+    System.Boolean ShowRuler
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiStatusBarPart StatusBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiToolBarPart ToolBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Caption
+    System.Drawing.Color CaptionColor
+    System.UInt32 Height
+    System.String Icon
+    System.Int32 Left
+    System.Int32 Top
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiWindowFlag WindowFlags
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.UI.Controls.HmiWebControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.UI.Events.HmiWebControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.String HomeUrl
+    System.String Url
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiStatusBarPart StatusBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiToolBarPart ToolBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Caption
+    System.Drawing.Color CaptionColor
+    System.UInt32 Height
+    System.String Icon
+    System.Int32 Left
+    System.Int32 Top
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiWindowFlag WindowFlags
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+    Siemens.Engineering.HmiUnified.UI.Dynamization.DynamizationBaseComposition Dynamizations
+    Siemens.Engineering.HmiUnified.UI.Events.PropertyEventHandlerComposition PropertyEventHandlers
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.RuntimeSettings.HmiUnifiedTagSettings (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Boolean IgnoreInitialQCNotifications
+    System.Boolean IgnoreTimestampNotifications
+    System.Boolean TagOptimizationActive
+  Methods:
+    System.Object GetAttribute(System.String name)
+    System.Collections.Generic.IList`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] names)
+    System.Collections.Generic.IReadOnlyList`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(Siemens.Engineering.AttributeAccessOptions attributeAccessOptions)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.EngineeringAttributeInfo, Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetAttributeInfos()
+    System.Void SetAttribute(System.String name, System.Object value)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes, Siemens.Engineering.AttributeDelegate errorHandler)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.LoggingTags.HmiLoggingTag (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.TimeSpan AggregationDelay
+    Siemens.Engineering.HmiUnified.LoggingTags.HmiAggregationMode AggregationMode
+    System.String Cycle
+    System.UInt32 CycleFactor
+    System.String DataLog
+    System.Object HighLimit
+    Siemens.Engineering.HmiUnified.LoggingTags.HmiLimitScope LimitScope
+    Siemens.Engineering.HmiUnified.LoggingTags.HmiLoggingMode LoggingMode
+    System.Object LowLimit
+    System.String Name
+    System.Double SmoothingDeltaValue
+    System.TimeSpan SmoothingMaxTime
+    System.TimeSpan SmoothingMinTime
+    Siemens.Engineering.HmiUnified.LoggingTags.HmiSmoothingMode SmoothingMode
+    System.String Source
+    Siemens.Engineering.HmiUnified.LoggingTags.HmiTriggerMode TriggerMode
+    System.String TriggerTag
+    System.UInt32 TriggerTagBitNumber
+  Methods:
+    System.Object GetAttribute(System.String name)
+    System.Collections.Generic.IList`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] names)
+    System.Collections.Generic.IReadOnlyList`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(Siemens.Engineering.AttributeAccessOptions attributeAccessOptions)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.EngineeringAttributeInfo, Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetAttributeInfos()
+    System.Void SetAttribute(System.String name, System.Object value)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes, Siemens.Engineering.AttributeDelegate errorHandler)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.HmiUnified.Common.HmiValidationResult, Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] Validate()
+    System.Void Delete()
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.LoggingTags.HmiLoggingTagComposition (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Int32 Count
+    System.Boolean IsReadOnly
+    Siemens.Engineering.HmiUnified.LoggingTags.HmiLoggingTag Item
+  Methods:
+    System.Collections.Generic.IEnumerator`1[[Siemens.Engineering.HmiUnified.LoggingTags.HmiLoggingTag, Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetEnumerator()
+    System.Boolean Any()
+    System.Boolean Contains(Siemens.Engineering.HmiUnified.LoggingTags.HmiLoggingTag item)
+    System.Int32 IndexOf(Siemens.Engineering.HmiUnified.LoggingTags.HmiLoggingTag item)
+    Siemens.Engineering.HmiUnified.LoggingTags.HmiLoggingTag Create(System.String name)
+    Siemens.Engineering.HmiUnified.LoggingTags.HmiLoggingTag Find(System.String name)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.HmiTags.HmiSystemTag (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.String DataType
+    System.String Name
+  Methods:
+    System.Object GetAttribute(System.String name)
+    System.Collections.Generic.IList`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] names)
+    System.Collections.Generic.IReadOnlyList`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(Siemens.Engineering.AttributeAccessOptions attributeAccessOptions)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.EngineeringAttributeInfo, Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetAttributeInfos()
+    System.Void SetAttribute(System.String name, System.Object value)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes, Siemens.Engineering.AttributeDelegate errorHandler)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.HmiTags.HmiSystemTagComposition (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Int32 Count
+    System.Boolean IsReadOnly
+    Siemens.Engineering.HmiUnified.HmiTags.HmiSystemTag Item
+  Methods:
+    System.Collections.Generic.IEnumerator`1[[Siemens.Engineering.HmiUnified.HmiTags.HmiSystemTag, Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetEnumerator()
+    System.Boolean Any()
+    System.Boolean Contains(Siemens.Engineering.HmiUnified.HmiTags.HmiSystemTag item)
+    System.Int32 IndexOf(Siemens.Engineering.HmiUnified.HmiTags.HmiSystemTag item)
+    Siemens.Engineering.HmiUnified.HmiTags.HmiSystemTag Find(System.String name)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.HmiTags.HmiTag (Base: System.Object)
+  Properties:
+    Siemens.Engineering.MultilingualText Comment
+    Siemens.Engineering.MultilingualText DisplayName
+    Siemens.Engineering.HmiUnified.LoggingTags.HmiLoggingTagComposition LoggingTags
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTagComposition Members
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.HmiTags.HmiThresholdComposition Thresholds
+    Siemens.Engineering.HmiUnified.HmiTags.HmiAccessMode AccessMode
+    System.String AcquisitionCycle
+    Siemens.Engineering.HmiUnified.HmiTags.HmiAcquisitionMode AcquisitionMode
+    System.String Address
+    System.String BufferHandshakeTag
+    Siemens.Engineering.HmiUnified.HmiTags.HmiConfirmationType ConfirmationType
+    System.String Connection
+    System.Boolean DBNameMultiplexing
+    System.String DataType
+    System.Boolean GmpRelevant
+    System.String HmiDataType
+    System.Object HmiEndValue
+    System.Object HmiStartValue
+    Siemens.Engineering.HmiUnified.HmiTags.UpperRange InitialMaxValue
+    Siemens.Engineering.HmiUnified.HmiTags.LowerRange InitialMinValue
+    System.Object InitialValue
+    System.Boolean LinearScaling
+    System.Boolean MandatoryCommenting
+    System.UInt32 MaxLength
+    System.String Name
+    System.Boolean Persistent
+    System.Object PlcEndValue
+    System.String PlcName
+    System.Object PlcStartValue
+    System.String PlcTag
+    System.String ReadHandshakeTag
+    System.String RequiredFunctionRights
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTagScope Scope
+    Siemens.Engineering.HmiUnified.HmiTags.HmiSubstituteValue SubstituteValue
+    System.String TagTableName
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTagType TagType
+    System.UInt32 Timeout
+    System.UInt32 UpdateId
+    System.String WriteHandshakeTag
+  Methods:
+    System.Object GetAttribute(System.String name)
+    System.Collections.Generic.IList`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] names)
+    System.Collections.Generic.IReadOnlyList`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(Siemens.Engineering.AttributeAccessOptions attributeAccessOptions)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.EngineeringAttributeInfo, Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetAttributeInfos()
+    System.Void SetAttribute(System.String name, System.Object value)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes, Siemens.Engineering.AttributeDelegate errorHandler)
+     GetService()
+    System.Collections.Generic.IList`1[[Siemens.Engineering.HmiUnified.Common.HmiValidationResult, Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] Validate()
+    System.Void Delete()
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.HmiTags.HmiTagComposition (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Int32 Count
+    System.Boolean IsReadOnly
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTag Item
+  Methods:
+    System.Collections.Generic.IEnumerator`1[[Siemens.Engineering.HmiUnified.HmiTags.HmiTag, Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetEnumerator()
+    System.Boolean Any()
+    System.Boolean Contains(Siemens.Engineering.HmiUnified.HmiTags.HmiTag item)
+    System.Int32 IndexOf(Siemens.Engineering.HmiUnified.HmiTags.HmiTag item)
+    System.Collections.Generic.IEnumerable`1[[System.IO.FileInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] Export(System.IO.DirectoryInfo destinationLocation)
+    System.Collections.Generic.IEnumerable`1[[System.IO.FileInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] Export(System.IO.DirectoryInfo destinationLocation, System.String name)
+    System.Boolean Import(System.IO.DirectoryInfo sourceLocation)
+    System.Boolean Import(System.IO.DirectoryInfo sourceLocation, System.String name)
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTag Create(System.String name)
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTag Create(System.String name, System.String tagTableName)
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTag Find(System.String name)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.HmiTags.HmiTagScope (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.HmiTags.HmiTagTable (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTagComposition Tags
+    System.String Name
+  Methods:
+    System.Object GetAttribute(System.String name)
+    System.Collections.Generic.IList`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] names)
+    System.Collections.Generic.IReadOnlyList`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(Siemens.Engineering.AttributeAccessOptions attributeAccessOptions)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.EngineeringAttributeInfo, Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetAttributeInfos()
+    System.Void SetAttribute(System.String name, System.Object value)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes, Siemens.Engineering.AttributeDelegate errorHandler)
+    System.Void Delete()
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableComposition (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Int32 Count
+    System.Boolean IsReadOnly
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTagTable Item
+  Methods:
+    System.Collections.Generic.IEnumerator`1[[Siemens.Engineering.HmiUnified.HmiTags.HmiTagTable, Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetEnumerator()
+    System.Boolean Any()
+    System.Boolean Contains(Siemens.Engineering.HmiUnified.HmiTags.HmiTagTable item)
+    System.Int32 IndexOf(Siemens.Engineering.HmiUnified.HmiTags.HmiTagTable item)
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTagTable Create(System.String name)
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTagTable Find(System.String name)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableGroup (Base: Siemens.Engineering.HmiUnified.Common.HmiGroupBase)
+  Properties:
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableGroupComposition Groups
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableComposition TagTables
+    System.String Name
+  Methods:
+    System.Void Delete()
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableGroupComposition (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Int32 Count
+    System.Boolean IsReadOnly
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableGroup Item
+  Methods:
+    System.Collections.Generic.IEnumerator`1[[Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableGroup, Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetEnumerator()
+    System.Boolean Any()
+    System.Boolean Contains(Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableGroup item)
+    System.Int32 IndexOf(Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableGroup item)
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableGroup Create(System.String name)
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableGroup Find(System.String name)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.HmiTags.HmiTagType (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTag (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.TimeSpan AggregationDelay
+    Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTagAggregationMode AggregationMode
+    System.String Cycle
+    System.UInt32 CycleFactor
+    System.String DataLog
+    System.Object HighLimit
+    Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTagLimitScope LimitScope
+    Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTagLoggingMode LoggingMode
+    System.Object LowLimit
+    System.String Name
+    System.Double SmoothingDeltaValue
+    System.TimeSpan SmoothingMaxTime
+    System.TimeSpan SmoothingMinTime
+    Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTagSmoothingMode SmoothingMode
+    System.String Source
+    Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTagTriggerMode TriggerMode
+    System.String TriggerTag
+    System.UInt32 TriggerTagBitNumber
+  Methods:
+    System.Object GetAttribute(System.String name)
+    System.Collections.Generic.IList`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] names)
+    System.Collections.Generic.IReadOnlyList`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(Siemens.Engineering.AttributeAccessOptions attributeAccessOptions)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.EngineeringAttributeInfo, Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetAttributeInfos()
+    System.Void SetAttribute(System.String name, System.Object value)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes, Siemens.Engineering.AttributeDelegate errorHandler)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTagAggregationMode (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTagComposition (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Int32 Count
+    System.Boolean IsReadOnly
+    Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTag Item
+  Methods:
+    System.Collections.Generic.IEnumerator`1[[Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTag, Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetEnumerator()
+    System.Boolean Any()
+    System.Boolean Contains(Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTag item)
+    System.Int32 IndexOf(Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTag item)
+    Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTag Find(System.String name)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTagLimitScope (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTagLoggingMode (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTagSmoothingMode (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.Cpm.PlantObjectLoggingTagTriggerMode (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.Cpm.PlantObjectTagAccessMode (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.Cpm.PlantObjectTagAcquisitionMode (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.Cpm.PlantObjectTagLimitValueType (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.Cpm.PlantObjectTagLowerRange (Base: Siemens.Engineering.HmiUnified.Cpm.PlantObjectTagRange)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Object Value
+    Siemens.Engineering.HmiUnified.Cpm.PlantObjectTagLimitValueType ValueType
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.Cpm.PlantObjectTagRange (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Object Value
+    Siemens.Engineering.HmiUnified.Cpm.PlantObjectTagLimitValueType ValueType
+  Methods:
+    System.Object GetAttribute(System.String name)
+    System.Collections.Generic.IList`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] names)
+    System.Collections.Generic.IReadOnlyList`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(Siemens.Engineering.AttributeAccessOptions attributeAccessOptions)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.EngineeringAttributeInfo, Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetAttributeInfos()
+    System.Void SetAttribute(System.String name, System.Object value)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes, Siemens.Engineering.AttributeDelegate errorHandler)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.Cpm.PlantObjectTagSubstituteValue (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.Cpm.PlantObjectTagSubstituteValueUsage SubstituteValueUsage
+    System.Object Value
+  Methods:
+    System.Object GetAttribute(System.String name)
+    System.Collections.Generic.IList`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] names)
+    System.Collections.Generic.IReadOnlyList`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(Siemens.Engineering.AttributeAccessOptions attributeAccessOptions)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.EngineeringAttributeInfo, Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetAttributeInfos()
+    System.Void SetAttribute(System.String name, System.Object value)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes, Siemens.Engineering.AttributeDelegate errorHandler)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.Cpm.PlantObjectTagSubstituteValueUsage (Base: System.Enum)
+  Properties:
+  Methods:
+
+TYPE: Siemens.Engineering.HmiUnified.Cpm.PlantObjectTagUpperRange (Base: Siemens.Engineering.HmiUnified.Cpm.PlantObjectTagRange)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Object Value
+    Siemens.Engineering.HmiUnified.Cpm.PlantObjectTagLimitValueType ValueType
+  Methods:
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()
+
+TYPE: Siemens.Engineering.HmiUnified.Common.HmiGroupBase (Base: System.Object)
+  Properties:
+    Siemens.Engineering.IEngineeringObject Parent
+  Methods:
+    System.Object GetAttribute(System.String name)
+    System.Collections.Generic.IList`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] names)
+    System.Collections.Generic.IReadOnlyList`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] GetAttributes(Siemens.Engineering.AttributeAccessOptions attributeAccessOptions)
+    System.Collections.Generic.IList`1[[Siemens.Engineering.EngineeringAttributeInfo, Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b]] GetAttributeInfos()
+    System.Void SetAttribute(System.String name, System.Object value)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes)
+    System.Void SetAttributes(System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] attributes, Siemens.Engineering.AttributeDelegate errorHandler)
+    System.Boolean Equals(System.Object obj)
+    System.Int32 GetHashCode()
+    System.String ToString()

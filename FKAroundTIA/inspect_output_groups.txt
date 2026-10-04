@@ -1,0 +1,642 @@
+=== Siemens Openness Screen Group Class Search ===
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiAlarmIndicator (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiSimpleScreenItemBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiAlarmIndicatorEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiAlarmStatePart AlarmState
+    System.String Filter
+    System.Drawing.Color FlashingColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    System.UInt32 Height
+    System.Boolean IsFlashingRequired
+    System.Int32 Left
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiAlarmStatePart NoAlarmState
+    System.Boolean ShowAlways
+    System.Int32 Top
+    System.UInt32 Width
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiBar (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiScaleWidgetBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiBarEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiBarMode BarMode
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiStraightScalePart StraightScale
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiButton (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiWidgetBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiButtonEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiPressedStateTagPartComposition PressedStateTags
+    System.String AlternateGraphic
+    Siemens.Engineering.MultilingualText AlternateText
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiContentPart Content
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    System.Drawing.Color ForeColor
+    System.String Graphic
+    System.UInt16 HotKey
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiPaddingPart Padding
+    Siemens.Engineering.MultilingualText Text
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiCheckBoxGroup (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiSelectionGroupBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiCheckBoxGroupEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiClock (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiWidgetBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiClockEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Drawing.Color DialBackColor
+    System.Drawing.Color DialLabelColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart DialLabelFont
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiScaleMode DialMode
+    System.Drawing.Color DialTickColor
+    System.Boolean ShowDate
+    System.Boolean ShowHours
+    System.Boolean ShowMinutes
+    System.Boolean ShowSeconds
+    System.String TimeSource
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Title
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiGauge (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiScaleWidgetBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiGaugeEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiBarMode BarMode
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiCurvedScalePart CurvedScale
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiIOField (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiTextWidgetBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiIOFieldEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiThresholdPartComposition Thresholds
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiHorizontalAlignment HorizontalTextAlignment
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiIOFieldType IOFieldType
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiInputBehaviorPart InputBehavior
+    System.String OutputFormat
+    System.String ProcessValue
+    System.Byte ShiftDecimalPlaces
+    System.Boolean ShowInputHint
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiTextTrimming TextTrimming
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiVerticalAlignment VerticalTextAlignment
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiLabel (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiTextWidgetBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiHorizontalAlignment HorizontalTextAlignment
+    Siemens.Engineering.MultilingualText Text
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiTextTrimming TextTrimming
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiTextWrapping TextWrapping
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiVerticalAlignment VerticalTextAlignment
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiListBox (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiSelectionGroupBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiListBoxEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiSelectionMode SelectionMode
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiRadioButtonGroup (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiSelectionGroupBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiRadioButtonGroupEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiScaleWidgetBase (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiWidgetBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiThresholdPartComposition Thresholds
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Label
+    System.Drawing.Color NormalRangeColor
+    System.Double OriginValue
+    System.String OutputFormat
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiPeakIndicator PeakIndicators
+    System.String ProcessValue
+    System.Drawing.Color ProcessValueIndicatorBackColor
+    System.Drawing.Color ProcessValueIndicatorForeColor
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiProcessIndicatorMode ProcessValueIndicatorMode
+    System.Boolean RelativeToOrigin
+    System.Drawing.Color ScaleBackColor
+    System.Drawing.Color ScaleForeColor
+    System.Boolean ShowTrendIndicator
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiThresholdIndicator ThresholdIndicators
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Title
+    System.Drawing.Color TrendIndicatorColor
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiSelectionGroupBase (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiWidgetBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiSelectionItemPartComposition SelectionItems
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiContentPart Content
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    System.Drawing.Color ForeColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiPaddingPart Padding
+    System.String ProcessValue
+    System.UInt16 SelectionItemHeight
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiHorizontalAlignment SelectorPosition
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiSlider (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiBar)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiSliderEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Boolean ShowValue
+    System.Drawing.Color ThumbBackColor
+    System.Drawing.Color ThumbForeColor
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiSimplePosition ValuePosition
+    System.Boolean WriteDuringChange
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiSymbolicIOField (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiTextWidgetBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiSymbolicIOFieldEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiContentPart Content
+    System.String Graphic
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiIOFieldType IOFieldType
+    System.String ProcessValue
+    System.String ResourceList
+    System.Int32 SelectedIndex
+    System.Drawing.Color SelectionBackColor
+    System.Drawing.Color SelectionForeColor
+    Siemens.Engineering.MultilingualText Text
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiTextBox (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiLabel)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiTextBoxEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Boolean ReadOnly
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiTextWidgetBase (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiWidgetBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    System.Drawing.Color ForeColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiPaddingPart Padding
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiToggleSwitch (Base: Siemens.Engineering.HmiUnified.UI.Widgets.HmiButton)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiToggleSwitchEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Boolean IsAlternateState
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiTouchArea (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiScreenItemBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiTouchAreaEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.String Authorization
+    System.Drawing.Color BackColor
+    System.UInt32 Height
+    System.Int32 Left
+    System.Boolean RequireExplicitUnlock
+    System.Int32 Top
+    System.UInt32 Width
+Class: Siemens.Engineering.HmiUnified.UI.Widgets.HmiWidgetBase (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiSimpleScreenItemBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Drawing.Color AlternateBackColor
+    System.Drawing.Color AlternateBorderColor
+    System.Drawing.Color BackColor
+    System.Drawing.Color BorderColor
+    System.Byte BorderWidth
+    System.UInt32 Height
+    System.Int32 Left
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiLinearMovementPart LinearMovement
+    System.Int16 RotationAngle
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiRotationCenterPlacement RotationCenterPlacement
+    System.Single RotationCenterX
+    System.Single RotationCenterY
+    System.Int32 Top
+    System.Boolean VisualizeQuality
+    System.UInt32 Width
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiCentricShapeBase (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiShapeBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Int32 CenterX
+    System.Int32 CenterY
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiCircle (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiCircularShapeBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiCircleEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Drawing.Color AlternateBackColor
+    System.Drawing.Color AlternateBorderColor
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFillPattern BackFillPattern
+    System.Drawing.Color BorderColor
+    System.Byte BorderWidth
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiDashType DashType
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFillDirection FillDirection
+    System.Byte FillLevel
+    System.Boolean ShowFillLevel
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiCircleSegment (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiCircle)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiCircleSegmentEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Int32 AngleRange
+    System.Int32 StartAngle
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiCircularArc (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiCircularShapeBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiCircularArcEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Drawing.Color AlternateLineColor
+    System.Int32 AngleRange
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiCapType CapType
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiDashType DashType
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiLineEndType EndType
+    System.Drawing.Color LineColor
+    System.Byte LineWidth
+    System.Int32 StartAngle
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiLineEndType StartType
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiCircularShapeBase (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiCentricShapeBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    System.UInt32 Radius
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiEllipse (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiEllipticalShapeBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiEllipseEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Drawing.Color AlternateBackColor
+    System.Drawing.Color AlternateBorderColor
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFillPattern BackFillPattern
+    System.Drawing.Color BorderColor
+    System.Byte BorderWidth
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiDashType DashType
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFillDirection FillDirection
+    System.Byte FillLevel
+    System.Boolean ShowFillLevel
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiEllipseSegment (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiEllipse)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiEllipseSegmentEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Int32 AngleRange
+    System.Int32 StartAngle
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiEllipticalArc (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiEllipticalShapeBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiEllipticalArcEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Drawing.Color AlternateLineColor
+    System.Int32 AngleRange
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiCapType CapType
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiDashType DashType
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiLineEndType EndType
+    System.Drawing.Color LineColor
+    System.Byte LineWidth
+    System.Int32 StartAngle
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiLineEndType StartType
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiEllipticalShapeBase (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiCentricShapeBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    System.UInt32 RadiusX
+    System.UInt32 RadiusY
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiGraphicView (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiSurfaceShapeBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiGraphicViewEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Drawing.Color AlternateBackColor
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFillPattern BackFillPattern
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFillDirection FillDirection
+    System.Byte FillLevel
+    System.String Graphic
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiGraphicStretchMode GraphicStretchMode
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiPaddingPart Padding
+    System.Boolean ShowFillLevel
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiLine (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiSurfaceShapeBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiLineEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Drawing.Color AlternateLineColor
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiCapType CapType
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiDashType DashType
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiLineEndType EndType
+    System.Drawing.Color LineColor
+    System.Byte LineWidth
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiLineEndType StartType
+    System.Int32 X1
+    System.Int32 X2
+    System.Int32 Y1
+    System.Int32 Y2
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiPointBasedShapeBase (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiSurfaceShapeBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Shapes.HmiPointComposition Points
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiLineJoinType JoinType
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiPolygon (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiPointBasedShapeBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiPolygonEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Drawing.Color AlternateBackColor
+    System.Drawing.Color AlternateBorderColor
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFillPattern BackFillPattern
+    System.Drawing.Color BorderColor
+    System.Byte BorderWidth
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiDashType DashType
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFillDirection FillDirection
+    System.Byte FillLevel
+    System.Boolean ShowFillLevel
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiPolyline (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiPointBasedShapeBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiPolylineEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Drawing.Color AlternateLineColor
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiCapType CapType
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiDashType DashType
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiLineEndType EndType
+    System.Drawing.Color LineColor
+    System.Byte LineWidth
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiLineEndType StartType
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiRectangle (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiSurfaceShapeBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiRectangleEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Drawing.Color AlternateBackColor
+    System.Drawing.Color AlternateBorderColor
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFillPattern BackFillPattern
+    System.Drawing.Color BorderColor
+    System.Byte BorderWidth
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiCornersPart Corners
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiDashType DashType
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFillDirection FillDirection
+    System.Byte FillLevel
+    System.Boolean ShowFillLevel
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiShapeBase (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiSimpleScreenItemBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiLinearMovementPart LinearMovement
+    System.Int16 RotationAngle
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiRotationCenterPlacement RotationCenterPlacement
+    System.Single RotationCenterX
+    System.Single RotationCenterY
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiSurfaceShapeBase (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiShapeBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    System.UInt32 Height
+    System.Int32 Left
+    System.Int32 Top
+    System.UInt32 Width
+Class: Siemens.Engineering.HmiUnified.UI.Shapes.HmiText (Base: Siemens.Engineering.HmiUnified.UI.Shapes.HmiSurfaceShapeBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiTextEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    System.Drawing.Color ForeColor
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiHorizontalAlignment HorizontalTextAlignment
+    Siemens.Engineering.MultilingualText Text
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiVerticalAlignment VerticalTextAlignment
+Class: Siemens.Engineering.HmiUnified.UI.Screens.HmiScreen (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiScreenBase)
+  inheritsFromScreenItem: False, hasScreenItems: True
+    Siemens.Engineering.HmiUnified.UI.Events.HmiScreenEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Base.HmiScreenItemBaseComposition ScreenItems
+    System.Drawing.Color AlternateBackColor
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFillPattern BackFillPattern
+    System.String BackGraphic
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiGraphicStretchMode BackGraphicStretchMode
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiBackgroundFillMode BackgroundFillMode
+    System.Boolean Enabled
+    System.UInt32 Height
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiHorizontalAlignment HorizontalAlignment
+    System.UInt16 ScreenNumber
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiVerticalAlignment VerticalAlignment
+    System.UInt32 Width
+Class: Siemens.Engineering.HmiUnified.UI.Screens.HmiScreenWindow (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiWindowBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiScreenWindowEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiScreenWindowAdaption Adaption
+    System.Double CurrentZoomFactor
+    System.Int32 HorizontalScrollBarPosition
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiScrollBarVisibility HorizontalScrollBarVisibility
+    System.Boolean InteractivePanning
+    System.Boolean InteractiveZooming
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiLinearMovementPart LinearMovement
+    System.String Screen
+    System.String ScreenName
+    System.UInt16 ScreenNumber
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiSupportedNavigation SupportedNavigation
+    System.Byte System
+    System.Boolean TabIntoWindow
+    System.Int32 VerticalScrollBarPosition
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiScrollBarVisibility VerticalScrollBarVisibility
+Class: Siemens.Engineering.HmiUnified.UI.Controls.HmiAlarmControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiAlarmControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFlashingRate AcknowledgmentFlashingRate
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiVisibleAlarms ActiveAlarmsViewSetup
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiVisibleAlarms AlarmDefinitionViewSetup
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiAlarmSourceType AlarmSourceType
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart AlarmStatisticsView
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart AlarmView
+    System.Boolean AlwaysShowRecent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiSortDirection DefaultSortDirection
+    System.String Filter
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFlashingRate ResetFlashingRate
+    System.Boolean SuppressFlashing
+    System.Int32 TimeZone
+    System.Boolean UseAlarmColors
+Class: Siemens.Engineering.HmiUnified.UI.Controls.HmiAlarmLineControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiSimpleScreenItemBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiAlarmLineControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFlashingRate AcknowledgmentFlashingRate
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiVisibleAlarms ActiveAlarmsViewSetup
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiAlarmLineViewPart AlarmLineView
+    System.Drawing.Color AlternateBackColor
+    System.Drawing.Color AlternateBorderColor
+    System.Drawing.Color BackColor
+    System.Drawing.Color BorderColor
+    System.Byte BorderWidth
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiSortDirection DefaultSortDirection
+    System.String Filter
+    System.UInt32 Height
+    System.Int32 Left
+    System.Byte NumberOfRows
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiFlashingRate ResetFlashingRate
+    System.Boolean SuppressFlashing
+    System.Int32 TimeZone
+    System.Int32 Top
+    System.Boolean UseAlarmColors
+    System.Boolean VisualizeQuality
+    System.UInt32 Width
+Class: Siemens.Engineering.HmiUnified.UI.Controls.HmiDetailedParameterControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiDetailedParameterControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiEditMode EditMode
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    System.Drawing.Color ForeColor
+    System.Boolean HideDetails
+    System.String ParameterSetTypeFixed
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart ParameterView
+    System.Drawing.Color SelectionBackColor
+    System.Drawing.Color SelectionForeColor
+    System.Int32 TimeZone
+Class: Siemens.Engineering.HmiUnified.UI.Controls.HmiFaceplateContainer (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiContainerBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiFaceplateContainerEventHandlerComposition EventHandlers
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFaceplateInterfaceComposition Interface
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiScreenWindowAdaption Adaption
+    System.Boolean InteractivePanning
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiLinearMovementPart LinearMovement
+    System.Int16 RotationAngle
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiRotationCenterPlacement RotationCenterPlacement
+    System.Single RotationCenterX
+    System.Single RotationCenterY
+Class: Siemens.Engineering.HmiUnified.UI.Controls.HmiFunctionTrendControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiTrendControlBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiFunctionTrendControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFunctionTrendAreaPartComposition FunctionTrendAreas
+    Siemens.Engineering.IEngineeringObject Parent
+Class: Siemens.Engineering.HmiUnified.UI.Controls.HmiMediaControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiMediaControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Boolean AutoPlay
+    System.String Url
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiVideoOutput VideoOutput
+Class: Siemens.Engineering.HmiUnified.UI.Controls.HmiProcessControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiProcessControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiEditMode EditMode
+    System.Boolean Online
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart ProcessView
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiTimeRangeBase TimeStepSmoothingBase
+    System.Int32 TimeStepSmoothingFactor
+    System.Int32 TimeZone
+Class: Siemens.Engineering.HmiUnified.UI.Controls.HmiProcessDiagnosisCriteriaAnalysisControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiCompanionBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiProDiagCriteriaAnalysisControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart CriteriaAnalysisView
+    System.Drawing.Color ForeColor
+    System.String SourceControl
+Class: Siemens.Engineering.HmiUnified.UI.Controls.HmiProcessDiagnosisGraphOverviewControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiProcessDiagnosisGraphOverviewControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    System.Drawing.Color ForeColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart GraphOverview
+    System.Drawing.Color GridLineColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiProcessDiagnosisOperationModePart OperationMode
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiPlcDataSourcePart PlcSource
+    System.Boolean ShowOperationMode
+Class: Siemens.Engineering.HmiUnified.UI.Controls.HmiProcessDiagnosisOverviewControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiProcessDiagnosisOverviewControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart Font
+    System.Drawing.Color ForeColor
+    System.Drawing.Color LineColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiProcessDiagnosisOverviewPart PDiagCategories
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiProcessDiagnosisOverviewPart PDiagSupervisionTypes
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiPlcDataSourcePart PlcSource
+Class: Siemens.Engineering.HmiUnified.UI.Controls.HmiProcessDiagnosisPlcCodeViewerControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiProcessDiagnosisPlcCodeViewerControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Double CurrentZoomFactor
+    System.Single OverviewDetailRatio
+    System.Boolean ShowSymbolLine
+    System.Drawing.Color SymbolLineBackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiFontPart SymbolLineFont
+    System.Drawing.Color SymbolLineForeColor
+Class: Siemens.Engineering.HmiUnified.UI.Controls.HmiSystemDiagnosisControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiSystemDiagnosisControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.MultilingualText DiagnosisBufferPathText
+    Siemens.Engineering.MultilingualText DiagnosisOverviewPathText
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiMatrixViewPart MatrixView
+    Siemens.Engineering.MultilingualText ScriptDiagnosisOverviewText
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart ScriptDiagnosisView
+    System.Boolean ShowStatusPath
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart SystemDiagnosisView
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiSystemDiagnosisViewType SystemDiagnosisViewType
+    System.Int32 TimeZone
+Class: Siemens.Engineering.HmiUnified.UI.Controls.HmiTrendCompanion (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiCompanionBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiTrendCompanionEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Boolean ShowAlways
+    System.String SourceTrendControl
+    System.Int32 TimeZone
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiTrendCompanionMode TrendCompanionMode
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart TrendRulerView
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart TrendStatisticAreaView
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiDataGridViewPart TrendStatisticResultView
+    System.Boolean UseSourceControlBackColor
+    System.Boolean UseSourceControlTrendColors
+Class: Siemens.Engineering.HmiUnified.UI.Controls.HmiTrendControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiTrendControlBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiTrendControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTrendAreaPartComposition TrendAreas
+    System.Boolean ShowStatisticRulers
+    System.Int32 TimeZone
+Class: Siemens.Engineering.HmiUnified.UI.Controls.HmiWebControl (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiWebControlEventHandlerComposition EventHandlers
+    Siemens.Engineering.IEngineeringObject Parent
+    System.String HomeUrl
+    System.String Url
+Class: Siemens.Engineering.HmiUnified.UI.Base.HmiCompanionBase (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Boolean SnapToSourceControl
+Class: Siemens.Engineering.HmiUnified.UI.Base.HmiContainerBase (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiWindowBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    System.String ContainedType
+Class: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiWindowBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    System.Drawing.Color BackColor
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiStatusBarPart StatusBar
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiToolBarPart ToolBar
+Class: Siemens.Engineering.HmiUnified.UI.Base.HmiCustomWebControlContainer (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiContainerBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiCustomWebControlContainerEventHandlerComposition EventHandlers
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiCustomControlInterfaceComposition Interface
+    Siemens.Engineering.IEngineeringObject Parent
+    System.String Authorization
+    System.Boolean RequireExplicitUnlock
+Class: Siemens.Engineering.HmiUnified.UI.Base.HmiCustomWidgetContainer (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiSimpleScreenItemBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.HmiUnified.UI.Events.HmiCustomWidgetContainerEventHandlerComposition EventHandlers
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiCustomControlInterfaceComposition Interface
+    Siemens.Engineering.IEngineeringObject Parent
+    System.UInt32 Height
+    System.Int32 Left
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiLinearMovementPart LinearMovement
+    System.Int16 RotationAngle
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiRotationCenterPlacement RotationCenterPlacement
+    System.Single RotationCenterX
+    System.Single RotationCenterY
+    System.Int32 Top
+    System.Boolean VisualizeQuality
+    System.UInt32 Width
+Class: Siemens.Engineering.HmiUnified.UI.Base.HmiScreenItemBase (Base: Siemens.Engineering.HmiUnified.UI.UIBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiQuality CurrentQuality
+    System.Boolean Enabled
+    System.String Name
+    System.Boolean ShowFocusVisual
+    System.String StyleItemClass
+    System.UInt16 TabIndex
+    System.Boolean Visible
+Class: Siemens.Engineering.HmiUnified.UI.Base.HmiSimpleScreenItemBase (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiScreenItemBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    System.String Authorization
+    System.Single Opacity
+    System.Boolean RequireExplicitUnlock
+    Siemens.Engineering.MultilingualText ToolTipText
+Class: Siemens.Engineering.HmiUnified.UI.Base.HmiTrendControlBase (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiControlWindowBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    System.UInt16 AreaSpacing
+    System.Boolean ExtendRulerToAxis
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiLegendPart Legend
+    System.Boolean Online
+    System.Boolean ShiftAxes
+    System.Boolean ShowRuler
+Class: Siemens.Engineering.HmiUnified.UI.Base.HmiWindowBase (Base: Siemens.Engineering.HmiUnified.UI.Base.HmiScreenItemBase)
+  inheritsFromScreenItem: True, hasScreenItems: False
+    Siemens.Engineering.IEngineeringObject Parent
+    Siemens.Engineering.HmiUnified.UI.Parts.HmiTextPart Caption
+    System.Drawing.Color CaptionColor
+    System.UInt32 Height
+    System.String Icon
+    System.Int32 Left
+    System.Int32 Top
+    System.UInt32 Width
+    Siemens.Engineering.HmiUnified.UI.Enum.HmiWindowFlag WindowFlags

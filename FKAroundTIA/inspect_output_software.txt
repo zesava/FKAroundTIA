@@ -1,0 +1,32 @@
+=== Siemens Openness HmiSoftware Location Inspection ===
+Searching in assembly: Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b
+Searching in assembly: Siemens.Engineering.Base, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b
+Searching in assembly: Siemens.Engineering.WinCC, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b
+Searching in assembly: Siemens.Engineering.WinCCUnified, Version=21.0.0.0, Culture=neutral, PublicKeyToken=29bfe5fdf4ba5d3b
+  FOUND: Siemens.Engineering.HmiUnified.HmiSoftwareFactoryFacade in Siemens.Engineering.WinCCUnified
+  Properties:
+  FOUND: Siemens.Engineering.HmiUnified.HmiSoftware in Siemens.Engineering.WinCCUnified
+  Properties:
+    Siemens.Engineering.HmiUnified.HmiAlarm.HmiAlarmClassComposition AlarmClasses
+    Siemens.Engineering.HmiUnified.HmiLogging.HmiAlarmLogComposition AlarmLogs
+    Siemens.Engineering.HmiUnified.HmiAlarm.HmiAnalogAlarmComposition AnalogAlarms
+    Siemens.Engineering.HmiUnified.HmiLogging.HmiAuditTrailComposition AuditTrails
+    Siemens.Engineering.HmiUnified.HmiConnections.HmiConnectionComposition Connections
+    Siemens.Engineering.HmiUnified.HmiLogging.HmiDataLogComposition DataLogs
+    Siemens.Engineering.HmiUnified.HmiAlarm.HmiDiscreteAlarmComposition DiscreteAlarms
+    Siemens.Engineering.HmiUnified.HmiAudit.HmiAlarmAuditClassComposition HmiAlarmAuditClass
+    Siemens.Engineering.HmiUnified.TextGraphicList.HmiGraphicListComposition HmiGraphicLists
+    Siemens.Engineering.HmiUnified.TextGraphicList.HmiSystemTextListComposition HmiSystemTextLists
+    Siemens.Engineering.HmiUnified.TextGraphicList.HmiTextListComposition HmiTextLists
+    Siemens.Engineering.HmiUnified.HmiOpcUaAlarm.HmiOpcUaAlarmTypeComposition OpcUaAlarmTypes
+    Siemens.Engineering.HmiUnified.Cpm.PlantObjectInterfaceComposition PlantObjectTags
+    Siemens.Engineering.HmiUnified.UI.ScreenGroup.HmiScreenGroupComposition ScreenGroups
+    Siemens.Engineering.HmiUnified.UI.Screens.HmiScreenComposition Screens
+    Siemens.Engineering.HmiUnified.Scripts.HmiScriptModuleComposition Scripts
+    Siemens.Engineering.HmiUnified.HmiTags.HmiSystemTagComposition SystemTags
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableGroupComposition TagTableGroups
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTagTableComposition TagTables
+    Siemens.Engineering.HmiUnified.HmiTags.HmiTagComposition Tags
+    Siemens.Engineering.HmiUnified.RuntimeSettings.HmiRuntimeSetting RuntimeSettings
+    Siemens.Engineering.IEngineeringObject Parent
+    System.String Name
