@@ -4,6 +4,16 @@ WinCC Unified Faceplate Analyzer is a Windows desktop utility for inspecting, ed
 
 The application uses the TIA Portal Openness API directly. It is intended to make repetitive faceplate work faster, especially when the same interface properties must be reviewed or updated across many instances.
 
+## Screenshots
+
+### Faceplate overview and editing
+
+![Faceplate groups and interface property editor](FKAroundTIA/docs/images/main-window.png)
+
+### Batch Add
+
+![Batch Add faceplate dialog](FKAroundTIA/docs/images/batch-add.png)
+
 ## Features
 
 - Connects to a running TIA Portal V21 instance and its open project.
